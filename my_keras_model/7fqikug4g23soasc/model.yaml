@@ -1,0 +1,19 @@
+name: my_keras_model
+version: 7fqikug4g23soasc
+module: bentoml.keras
+labels: {}
+options:
+  partial_kwargs: {}
+  include_optimizer: false
+metadata: {}
+context:
+  framework_name: keras
+  framework_versions:
+    tensorflow: 2.12.0
+  bentoml_version: 1.0.18
+  python_version: 3.9.16
+signatures:
+  predict:
+    batchable: false
+api_version: v1
+creation_time: '2023-04-16T09:13:38.858705+00:00'
